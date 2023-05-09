@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">lesson.3.1</string>
+
+    <string name="registration">РегистрациЯ</string>
+    <string name="firstName">Имя</string>
+    <string name="lastName">Фамилия</string>
+    <string name="age">Возраст</string>
+    <string name="next">Продолжить</string>
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_main_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/tx_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/registration"
+        android:textColor="@color/orange_200"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/edit_first_name"
+        style="@style/Base.EditTextStyle"
+        android:layout_marginHorizontal="56dp"
+        android:layout_marginTop="20dp"
+        android:paddingVertical="14dp"
+        android:hint="@string/firstName"
+        android:textColorHint="@color/grey_100"
+        />
+
+    <EditText
+        android:id="@+id/edit_last_name"
+        style="@style/Base.EditTextStyle"
+        android:layout_marginHorizontal="56dp"
+        android:layout_marginTop="6dp"
+        android:paddingVertical="14dp"
+        android:hint="@string/lastName"
+        android:textColorHint="@color/grey_100"
+        />
+
+    <EditText
+        android:id="@+id/edit_age"
+        style="@style/Base.EditTextStyle"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:layout_marginHorizontal="56dp"
+        android:layout_marginTop="6dp"
+        android:paddingVertical="14dp"
+        android:hint="@string/age"
+        android:textColorHint="@color/grey_100"
+        />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="56dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/orange"
+        android:paddingVertical="15dp"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="30dp" />
+
+</LinearLayout>

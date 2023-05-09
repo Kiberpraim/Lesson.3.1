@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_second_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/tx_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/registration"
+        android:textColor="@color/orange_200"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/tv_first_name"
+        style="@style/Base.TextViewStyle"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="56dp"
+        android:paddingVertical="14dp"/>
+
+    <TextView
+        android:id="@+id/tv_last_name"
+        style="@style/Base.TextViewStyle"
+        android:layout_marginTop="6dp"
+        android:layout_marginHorizontal="56dp"
+        android:paddingVertical="14dp"/>
+
+    <TextView
+        android:id="@+id/tv_age"
+        style="@style/Base.TextViewStyle"
+        android:layout_marginTop="6dp"
+        android:layout_marginHorizontal="56dp"
+        android:paddingVertical="14dp"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="56dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/orange"
+        android:paddingVertical="15dp"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="30dp" />
+
+</LinearLayout>
